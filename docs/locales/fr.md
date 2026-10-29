@@ -7,7 +7,7 @@
 
 `Programmeur Systèmes` • `Moteurs de Stockage` • `DSP Audio Temps Réel` • `Stockholm, Suède`
 
-Bonjour. Je conçois des systèmes de stockage distribué à très faible latence et des moteurs de calcul acoustique en temps réel. Mon quotidien s'articule autour de la programmation système en Rust et C++ moderne, des entrées/sorties Linux sans copie via io_uring et de la modélisation par automates finis déterministes.
+Bonjour. Je conçois des systèmes de stockage distribué à très faible latence et des moteurs de calcul acoustique en temps réel. Mon quotidien s'articule autour de la programmation système en Rust et C++ moderne, des entrées/sorties Linux sans copie via io_uring et de la modélisation par machines d'états finis déterministes.
 
 Lorsque je ne suis pas occupé à profiler les défauts de cache CPU ou à concevoir des journaux de transactions (WAL), vous me trouverez en train d'expérimenter sur des synthétiseurs modulaires analogiques, de préparer du café éthiopien en V60 ou d'arpenter les chemins de gravel scandinaves à vélo.
 
@@ -41,7 +41,7 @@ Lorsque je ne suis pas occupé à profiler les défauts de cache CPU ou à conce
 - **Technologies** : C, eBPF / libbpf, Zig, Linux Tracepoints
 
 ### 4. `nord-vibe`
-> Outil d'orchestration en ligne de commande synchronisant les palettes de couleurs, ligatures et dispositions entre Neovim, Tmux et Alacritty.
+> Utilitaire d'environnement de travail CLI synchronisant les palettes de couleurs, ligatures et dispositions entre Neovim, Tmux et Alacritty.
 - **Technologies** : Go, Unix Domain Sockets, TOML
 
 ---
@@ -52,8 +52,8 @@ Lorsque je ne suis pas occupé à profiler les défauts de cache CPU ou à conce
 | Niveau | Langages | Contexte d'Usage |
 | :--- | :--- | :--- |
 | **Production Quotidienne** | Rust, C++20, C | Moteurs de stockage, cœurs de calcul DSP audio, sondes eBPF |
-| **Outils & Services** | Go, Python, Zig | Orchestration de compilation, pipelines de données, bancs de test |
-| **Shell & Automatisation** | Fish, POSIX Shell, Bash | Initialisation d'environnements, bancs d'essai CI, paramétrage noyau |
+| **Outils & Services** | Go, Python, Zig | Outils de compilation sur mesure, pipelines de données, bancs de test |
+| **Shell & Scripting système** | Fish, POSIX Shell, Bash | Initialisation d'environnements, bancs d'essai CI, paramétrage noyau |
 
 ### Systèmes & Architecture
 | Domaine | Technologies & Standards |
@@ -80,7 +80,7 @@ Machine principale     : AMD Ryzen 9 7950X, 64GB DDR5 ECC, PCIe 4.0 NVMe RAID-0
 
 1. **L'exactitude prime sur l'ingéniosité** : Un code rapide qui corrompt les données est inutile. Prouvez systématiquement les invariants avec des tests basés sur les propriétés (Property testing) et le fuzzing.
 2. **Sympathie Mécanique (Mechanical Sympathy)** : Gardez toujours à l'esprit les caches processeur, les prédicteurs de branchement, les tables des pages et la bande passante mémoire. Le matériel n'est pas une fiction abstraite.
-3. **Tests Déterministes** : Une simulation par automate à graine reproductible met en lumière les situations de concurrence critique bien plus vite que des semaines de tests en production.
+3. **Tests Déterministes** : Une simulation avec machines d'états reproductibles met en lumière les situations de concurrence critique bien plus vite que des semaines de tests en production.
 4. **Parcimonie des Dépendances** : Chaque bibliothèque tierce introduite est une dette de maintenance future. Privilégiez les interfaces standard éprouvées.
 
 ---

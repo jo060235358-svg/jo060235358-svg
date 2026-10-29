@@ -7,7 +7,7 @@
 
 `Systemprogrammierer` • `Speicher-Engines` • `Echtzeit-Audio-DSP` • `Stockholm, Schweden`
 
-Hallo. Ich entwickle verteilte Speichersysteme mit minimaler Latenz und echtzeitfähige Akustikberechnungs-Engines. Meine tägliche Arbeit dreht sich um hardwarenahe Systemprogrammierung in Rust und modernem C++, Zero-Copy Linux-Kernel-I/O mittels io_uring sowie deterministische endliche Zustandsautomaten.
+Hallo. Ich entwickle verteilte Speichersysteme mit minimaler Latenz und echtzeitfähige Akustikberechnungs-Engines. Meine tägliche Arbeit dreht sich um hardwarenahe Systemprogrammierung in Rust und modernem C++, Zero-Copy Linux-Kernel-I/O mittels io_uring sowie deterministische Zustandsmaschinen.
 
 Wenn ich nicht gerade Cache-Misses analysiere oder Write-Ahead-Logs entwerfe, experimentiere ich mit modularen analogen Synthesizern, brühe äthiopischen Filterkaffee per Hand auf (V60) oder fahre mit dem Gravelbike über skandinavische Schotterpisten.
 
@@ -52,7 +52,7 @@ Wenn ich nicht gerade Cache-Misses analysiere oder Write-Ahead-Logs entwerfe, ex
 | Ebene | Sprachen | Haupteinsatzbereich |
 | :--- | :--- | :--- |
 | **Tägliche Produktion** | Rust, C++20, C | Speicher-Engines, Audio-DSP-Kerne, eBPF-Systemanalysen |
-| **Werkzeuge & Dienste** | Go, Python, Zig | Build-Automatisierung, Datenpipelines, Benchmark-Suiten |
+| **Werkzeuge & Dienste** | Go, Python, Zig | Eigene Build-Tools, Datenpipelines, Benchmark-Suiten |
 | **Shell & Skripte** | Fish, POSIX Shell, Bash | System-Bootstrapping, CI-Prüfstände, Kernel-Parameter-Tuning |
 
 ### Systeme & Architektur

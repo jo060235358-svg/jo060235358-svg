@@ -41,7 +41,7 @@
 - **기술 스택**: C, eBPF / libbpf, Zig, Linux Tracepoints
 
 ### 4. `nord-vibe`
-> Neovim, Tmux, Alacritty 전반의 컬러 팔레트, 폰트 리가처, 터미널 레이아웃을 실시간 동기화하는 CLI 워크스페이스 오케스트레이터.
+> Neovim, Tmux, Alacritty 전반의 컬러 팔레트, 폰트 리가처, 터미널 레이아웃을 실시간 동기화하는 CLI 워크스페이스 도구.
 - **기술 스택**: Go, Unix Domain Sockets, TOML
 
 ---
@@ -52,7 +52,7 @@
 | 분류 | 언어 | 주 활용 맥락 |
 | :--- | :--- | :--- |
 | **주력 프로덕션** | Rust, C++20, C | 고성능 스토리지 엔진, 오디오 DSP 커널, eBPF 저수준 추적 |
-| **도구 및 서비스** | Go, Python, Zig | 빌드 오케스트레이터, 데이터 파이프라인, 벤치마크 스위트 |
+| **도구 및 서비스** | Go, Python, Zig | 커스텀 빌드 도구, 데이터 파이프라인, 벤치마크 스위트 |
 | **쉘 및 자동화** | Fish, POSIX Shell, Bash | 시스템 환경 부트스트래핑, CI 검증 리그, 커널 파라미터 튜닝 |
 
 ### 시스템 및 아키텍처

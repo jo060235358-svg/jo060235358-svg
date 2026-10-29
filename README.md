@@ -42,7 +42,7 @@ When I am not profiling cache misses or designing write-ahead logs, you can find
 - **Tech Stack**: C, eBPF / libbpf, Zig, Linux Tracepoints
 
 ### 4. `nord-vibe`
-> CLI workspace orchestrator that synchronizes color schemes, font ligatures, and layouts across Neovim, Tmux, and Alacritty.
+> CLI workspace tool that synchronizes color schemes, font ligatures, and layouts across Neovim, Tmux, and Alacritty.
 - **Tech Stack**: Go, Unix Domain Sockets, TOML
 
 ---
@@ -53,8 +53,8 @@ When I am not profiling cache misses or designing write-ahead logs, you can find
 | Tier | Languages | Primary Context |
 | :--- | :--- | :--- |
 | **Daily Production** | Rust, C++20, C | High-throughput storage engines, audio DSP kernels, eBPF |
-| **Tooling & Services** | Go, Python, Zig | Build orchestrators, data pipelines, benchmark suites |
-| **Shell & Automation** | Fish, POSIX Shell, Bash | System bootstrapping, CI test rigs, kernel parameter tuning |
+| **Tooling & Services** | Go, Python, Zig | Custom build tooling, data pipelines, benchmark suites |
+| **Scripting & Systems Tooling** | Fish, POSIX Shell, Bash | System bootstrapping, test rigs, kernel parameter tuning |
 
 ### Systems & Architecture
 | Domain | Technologies & Standards |

@@ -53,7 +53,7 @@ Cuando no estoy analizando fallos de caché en CPU o diseñando registros de esc
 | :--- | :--- | :--- |
 | **Producción Diaria** | Rust, C++20, C | Motores de almacenamiento, núcleos DSP de audio, sondas eBPF |
 | **Herramientas y Servicios** | Go, Python, Zig | Orquestación de compilaciones, canalizaciones de datos, suites de benchmark |
-| **Shell y Automatización** | Fish, POSIX Shell, Bash | Aprovisionamiento de entornos, bancos de prueba en CI, ajuste de parámetros del kernel |
+| **Shell y Scripting de Sistemas** | Fish, POSIX Shell, Bash | Aprovisionamiento de entornos, bancos de prueba en CI, ajuste de parámetros del kernel |
 
 ### Sistemas y Arquitectura
 | Dominio | Tecnologías y Estándares |
