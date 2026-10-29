@@ -1,0 +1,9 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+tokens.json
+
+# Browser Profile Cache & Local State
+browser_profile/
+*.log
